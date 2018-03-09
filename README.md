@@ -10,7 +10,8 @@ To complete the game, the game piece must land exactly on the last piece of the 
 overshoots the last piece of the board, the die must be rerolled.
 
 Snakes *CAN NOT* be placed so that it would move the player to a negative board position.
-Ladders *CAN* be placed so that it would move the player past the end position.
+
+Ladders *CAN* be placed so that it would move the player past the end position. If this happens, print "LADDERWINNER!" and end the game.
 
 ## Challenge:
 
@@ -25,8 +26,11 @@ Each move should be printed on a new line in the following format:
 `X->Y[,S|L->Z]`
 
 X = Die value
+
 Y = New position
+
 S|L = Landed on a snake or ladder
+
 Z = New position after adjustment
 
 If a reroll is required, the format should be:
@@ -51,6 +55,9 @@ Rolling a 5 on from position 97 and having to reroll:
 
 Rolling a 4 on from position 96 and finishing the game:
 `4->100,Finished`
+
+Rolling a 4 on from position 90, landing on a ladder:
+`4->94,LADDERWINNER!`
 
 The board will consist of a one dimensional array containing all board positions, snakes, and ladders.
 

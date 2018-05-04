@@ -39,6 +39,8 @@ If a reroll is required, the format should be:
 When the game completes, the format should be:
 `X->Y,Finished`
 
+Starting position is 1.
+
 # Examples:
 
 (Based on a snake being -5, and a ladder being +7)

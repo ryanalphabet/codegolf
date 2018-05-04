@@ -41,6 +41,8 @@ When the game completes, the format should be:
 
 # Examples:
 
+(Based on a snake being -5, and a ladder being +7)
+
 Rolling a 4 on from position 1:
 `4->5`
 
@@ -57,7 +59,7 @@ Rolling a 4 on from position 96 and finishing the game:
 `4->100,Finished`
 
 Rolling a 4 on from position 90, landing on a ladder:
-`4->94,LADDERWINNER!`
+`4->93,LADDERWINNER!`
 
 The board will consist of a one dimensional array containing all board positions, snakes, and ladders.
 

@@ -41,6 +41,8 @@ When the game completes, the format should be:
 
 Starting position is 1.
 
+Dice rolls should yield an integer value of [1, 2, 3, 4, 5, 6]
+
 # Examples:
 
 (Based on a snake being -5, and a ladder being +7)

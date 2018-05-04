@@ -69,7 +69,7 @@ The board will consist of a one dimensional array containing all board positions
 
 For example, a 3 x 3 board would be represented as:
 
-`['.', '.', '.', L, '.', S, '.', '.']`
+`['.', '.', '.', L, '.', S, '.', '.', '.']`
 
 Die rolls should be random.
 
@@ -79,4 +79,4 @@ Only the function body is counted for characters.
 
 An example call to the method would look like:
 
-`snakesAndLadders(['.', '.', '.', L, '.', S, '.', '.'], 5, 7)`
+`snakesAndLadders(['.', '.', '.', L, '.', S, '.', '.', '.'], 5, 7)`

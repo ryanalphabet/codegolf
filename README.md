@@ -58,8 +58,8 @@ Rolling a 5 on from position 97 and having to reroll:
 Rolling a 4 on from position 96 and finishing the game:
 `4->100,Finished`
 
-Rolling a 4 on from position 90, landing on a ladder:
-`4->93,LADDERWINNER!`
+Rolling a 3 on from position 90, landing on a ladder:
+`3->93,LADDERWINNER!`
 
 The board will consist of a one dimensional array containing all board positions, snakes, and ladders.
 
